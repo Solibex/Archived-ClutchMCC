@@ -1,4 +1,16 @@
 on load:
-    loop all players:
-        if loop-player has permission "op":
-            send "&e[%script name%&e]: &3Loaded (Alpha)"
+	loop all players:
+		if loop-player has permission "op":
+			send "&e[%script name%&e]: &3Loaded (Alpha)"
+command /stafflist:
+	permission: disabled.stafflist
+	permission message: &cThis command is disabled due to hackers using it, to know when to hack on.
+	trigger:
+		loop all players:
+			if loop-player has permission "op":
+				add loop-player to {_staff::*}
+		send "There is %amount of {_staff::*} ? 0%" to player
+command /playerslist:
+	trigger:
+	loop all players:
+		send "&e%player%"
