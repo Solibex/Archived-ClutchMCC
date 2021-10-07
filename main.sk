@@ -1,0 +1,4 @@
+on load:
+    loop all players:
+        if loop-player has permission "op":
+            send "&e[%script name%&e]: &3Loaded (Alpha)"
