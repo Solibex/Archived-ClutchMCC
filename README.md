@@ -1,3 +1,5 @@
 # ClutchMCC
 
-# This is the java plugin of ClutchMCC :D
+# This is the skript of ClutchMCC
+# I kinda sucks at skript
+# 1 year of skript go brrrrr
