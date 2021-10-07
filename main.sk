@@ -12,5 +12,5 @@ command /stafflist:
 		send "There is %amount of {_staff::*} ? 0%" to player
 command /playerslist:
 	trigger:
-	loop all players:
-		send "&e%player%"
+		loop all players:
+			send "&e%player%" to player
